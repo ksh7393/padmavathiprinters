@@ -1,0 +1,22 @@
+# Local git commands (PowerShell) to commit and push changes for GitHub Pages
+
+# In PowerShell, from the repository root:
+
+# 1) Initialize git if needed
+# git init
+
+# 2) Add the remote (replace placeholders):
+# git remote add origin https://github.com/<your-username>/<your-repo>.git
+
+# 3) Ensure main branch and stage all changes:
+# git checkout -B main
+# git add .
+# git commit -m "Add GitHub Pages workflow and publishing helpers"
+
+# 4) Push to GitHub (you may need to authenticate with PAT / credential manager):
+# git push -u origin main
+
+# After pushing:
+# - Visit the Actions tab in your GitHub repo to watch the Pages workflow run.
+# - Once the workflow completes, Pages will be available at:
+#   https://<your-username>.github.io/<your-repo>/

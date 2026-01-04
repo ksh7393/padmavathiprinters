@@ -1,0 +1,40 @@
+[
+  {
+    "folder": "card1",
+    "title": "Card1",
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ]
+  },
+  {
+    "folder": "card2",
+    "title": "Card2",
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ]
+  },
+  {
+    "folder": "card3",
+    "title": "Card3",
+    "description": "",
+    "images": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ]
+  },
+  {
+    "folder": "card4",
+    "title": "Card4",
+    "description": "",
+    "images": [
+      "1.jpg"
+    ]
+  }
+]
