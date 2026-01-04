@@ -4,9 +4,7 @@
     "title": "Card1",
     "description": "",
     "images": [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg"
+      "1.jpg"
     ]
   },
   {
@@ -14,8 +12,7 @@
     "title": "Card2",
     "description": "",
     "images": [
-      "1.jpg",
-      "2.jpg"
+      "1.jpg"
     ]
   },
   {
@@ -24,9 +21,7 @@
     "description": "",
     "images": [
       "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg"
+      "2.jpg"
     ]
   },
   {
