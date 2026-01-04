@@ -90,5 +90,19 @@ git push -u origin main
 After pushing, open the repository on GitHub and verify the workflow ran under the Actions tab. Pages will be available at `https://<your-username>.github.io/<your-repo>/` once the deploy step completes.
 
 If you prefer to use a `gh-pages` branch instead of `main`, I can adjust the workflow and instructions.
+ 
+Quick verification checklist
+- Confirm the workflow file exists on GitHub at `.github/workflows/pages.yml`.
+- In the repository's Actions tab, check that a run started after your push and that the "Deploy to GitHub Pages" job completed successfully.
+- Visit `https://ksh7393.github.io/padmavathiprinters/` (or the URL shown in your Pages settings) once the Actions deployment step finishes.
+
+Badge (optional)
+You can show a Pages workflow badge in this README. Replace `<your-username>` and `<your-repo>` with your values:
+
+```markdown
+[![pages-build-deployment](https://github.com/<your-username>/<your-repo>/actions/workflows/pages.yml/badge.svg)](https://github.com/<your-username>/<your-repo>/actions/workflows/pages.yml)
+```
+
+If you prefer to use a `gh-pages` branch instead of `main`, I can adjust the workflow and instructions.
 
 
