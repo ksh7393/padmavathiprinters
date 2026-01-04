@@ -8,8 +8,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v3
+
       contents: read
-      pages: write
+        # bump to v2 to avoid older artifact action usage
+        uses: actions/upload-pages-artifact@v2
       id-token: write
     steps:
       - name: Checkout repository
